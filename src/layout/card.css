@@ -1,0 +1,32 @@
+.card {
+  margin: 16px auto;
+  color: #282c34;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid cyan;
+
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  max-width: 500px;
+}
+
+.card .title {
+  color: #282c34;
+  font-weight: bold;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.card .content {
+  background-color: #282c34;
+  color: cyan;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

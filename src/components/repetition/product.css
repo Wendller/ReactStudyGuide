@@ -1,0 +1,16 @@
+.tableProducts {
+  width: 100%;
+}
+
+.tableProducts table {
+  width: 100%;
+  color: aliceblue;
+}
+
+.tableProducts th {
+  background-color: cyan;
+}
+
+.tableProducts .even {
+  background-color: lightslategrey;
+}
